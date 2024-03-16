@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Favorite usuários do Github.">
+
+  <title>Github Favoritos</title>
+
+  <link rel="stylesheet" href="./style.css">
+  <script src="./src/main.js" type="module" defer></script>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <img src="./assets/Gitfav.svg" alt="logo do Gitfav">
+      <div id="search-wrapper">
+        <label class="sr-only" for="input-search">Digite o Github username que quer favoritar</label>
+        <input id="input-search" type="text" placeholder="Digite o Github username que quer favoritar">
+        <button><span>&star;</span> Favoritar</button>
+      </div>
+    </header>
+    <div id="table-boder">
+      <table class="table-wrapper">
+        <thead> 
+          <tr>
+            <th>Usuário</th>
+            <th>Repositorios</th>
+            <th>Seguidores</th> 
+            <th>Ação</th>
+          </tr>
+        </thead>
+        <tbody id="table-full"> 
+            <!-- <tr>
+              <td class="user">
+                <img src="https://github.com/Paulogarbo.png" alt="Imagem de Paulo Alex">
+                <a href="https://github.com/Paulogarbo" target="_blank">
+                  <p>Paulo Alex</p>
+                  <span>Paulogarbo</span>
+                </a>
+              </td>
+              <td class="repositories">
+                20
+              </td>
+              <td class="followers">
+                20
+              </td>
+              <td>
+                <button class="remove">Remover</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="user">
+                <img src="https://github.com/Paulogarbo.png" alt="Imagem de Paulo Alex">
+                <a href="https://github.com/Paulogarbo" target="_blank">
+                  <p>Paulo Alex</p>
+                  <span>Paulogarbo</span>
+                </a>
+              </td>
+              <td class="repositories">
+                20
+              </td>
+              <td class="followeres">
+                20
+              </td>
+              <td>
+                <button class="remove">Remover</button>
+              </td>
+            </tr> -->
+        </tbody>
+
+        <tbody id="table-empty" class="hide">
+          <div id="empty-message" class="hide">
+            <img src="./assets/Estrela.svg" alt="Estrela surpresa">
+            <p>Nenhum favorito ainda</p>
+          </div>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
