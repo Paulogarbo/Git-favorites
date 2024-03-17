@@ -4,7 +4,7 @@ Gerencie seus usuários favoritos do GitHub, mantendo-se atualizado com seus rep
 
 ## Demonstração
 
-<img src="/assets/demonstration.gif">
+![](./assets/demonstration.gif)
 
 ## Visão Geral
 
