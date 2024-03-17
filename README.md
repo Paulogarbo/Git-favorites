@@ -4,7 +4,7 @@ Gerencie seus usuários favoritos do GitHub, mantendo-se atualizado com seus rep
 
 ## Demonstração
 
-<img src="./assets/demonstration.gif" alt="Demonstração" style="width: 600px; height: 400px;">
+<img src="./assets/demonstration.gif" alt="Demonstração" style="width: 800px; height: 400px;">
 
 ## Visão Geral
 
