@@ -4,7 +4,7 @@ Gerencie seus usuários favoritos do GitHub, mantendo-se atualizado com seus rep
 
 ## Demonstração
 
-[Adicione um gif ou imagem demonstrando o funcionamento do projeto aqui] //vou adicionar depois
+//vou adicionar depois
 
 ## Visão Geral
 
