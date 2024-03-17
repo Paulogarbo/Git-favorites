@@ -33,7 +33,7 @@ Este projeto foi desenvolvido como parte de um estudo sobre consumo de APIs, uti
 
 ## Autor
 
-[Seu Nome]
+Paulo Alex
 
 ## Contribuição
 
